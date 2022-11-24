@@ -1,1 +1,195 @@
-{"_type":"export","__export_format":4,"__export_date":"2022-11-24T02:51:34.915Z","__export_source":"insomnia.desktop.app:v2022.6.0","resources":[{"_id":"req_3d8a4c0c82c94cde9747431968e90f74","parentId":"fld_d11f0c82cf4f4c7e946af6ac649b7829","modified":1669258001201,"created":1661713035743,"url":"http://localhost:3000/users/08eba9bd-a1a6-43cd-8752-42935ee27aac","name":"Atualizar usuario","description":"","method":"PATCH","body":{"mimeType":"application/json","text":"{\n\t\"age\" : 15\n}"},"parameters":[],"headers":[{"name":"Content-Type","value":"application/json","id":"pair_1ed7c8d0ada14f0eaeda7f3693d90c18"}],"authentication":{},"metaSortKey":-1661713035743,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"fld_d11f0c82cf4f4c7e946af6ac649b7829","parentId":"wrk_6f7fc6f4a269415b8b395cd6aceab7b6","modified":1661644934181,"created":1661644934181,"name":"Users","description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1661644934181,"_type":"request_group"},{"_id":"wrk_6f7fc6f4a269415b8b395cd6aceab7b6","parentId":null,"modified":1661644925993,"created":1661644925993,"name":"ENTREGA-API-TYPESCRIPT","description":"","scope":"collection","_type":"workspace"},{"_id":"req_79889fecb4564635a9f0b7a17560cf94","parentId":"fld_d11f0c82cf4f4c7e946af6ac649b7829","modified":1669257993100,"created":1661709302611,"url":"http://localhost:3000/users/1fd47a71-a059-420e-92d6-db6de4cb111e","name":"Deletando usuário","description":"","method":"DELETE","body":{},"parameters":[],"headers":[],"authentication":{},"metaSortKey":-1661709302611,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_2c1c9c51c9424e69a40f920394b7afd8","parentId":"fld_d11f0c82cf4f4c7e946af6ac649b7829","modified":1661778160753,"created":1661708258862,"url":"http://localhost:3000/users/f4d6b1d6-704d-4473-91f3-9838215cca18","name":"Listar um único usuário","description":"","method":"GET","body":{},"parameters":[],"headers":[],"authentication":{},"metaSortKey":-1661708258862,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_1ade6298fa20474cac7f3ca22f7ec037","parentId":"fld_d11f0c82cf4f4c7e946af6ac649b7829","modified":1669257976026,"created":1661644956405,"url":"http://localhost:3000/users","name":"Criar usuário","description":"","method":"POST","body":{"mimeType":"application/json","text":"{\n\t\"name\" : \"coonie\",\n\t\"email\": \"coonie@kenzie.com\",\n\t\"password\": \"1234\",\n\t\"age\" : 27\n\t\n}"},"parameters":[],"headers":[{"name":"Content-Type","value":"application/json","id":"pair_fc04b7d656d843c9bbe151a14415371a"}],"authentication":{},"metaSortKey":-1661644956405,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_f7872cc86c734cc781c70fd43a097ca2","parentId":"fld_d11f0c82cf4f4c7e946af6ac649b7829","modified":1661644971342,"created":1661644938152,"url":"http://localhost:3000/users","name":"Listar usuários","description":"","method":"GET","body":{},"parameters":[],"headers":[],"authentication":{},"metaSortKey":-1661644938152,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"env_f07d7d0f95d0f3692f87f1fc68dfe75dcdbfcbcb","parentId":"wrk_6f7fc6f4a269415b8b395cd6aceab7b6","modified":1661644926003,"created":1661644926003,"name":"Base Environment","data":{},"dataPropertyOrder":null,"color":null,"isPrivate":false,"metaSortKey":1661644926003,"_type":"environment"},{"_id":"jar_f07d7d0f95d0f3692f87f1fc68dfe75dcdbfcbcb","parentId":"wrk_6f7fc6f4a269415b8b395cd6aceab7b6","modified":1661644926006,"created":1661644926006,"name":"Default Jar","cookies":[],"_type":"cookie_jar"},{"_id":"spc_e4c45aa33bea41909946af60cc9f3b6c","parentId":"wrk_6f7fc6f4a269415b8b395cd6aceab7b6","modified":1661644925996,"created":1661644925996,"fileName":"ENTREGA-API-TYPESCRIPT","contents":"","contentType":"yaml","_type":"api_spec"}]}
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-11-24T02:51:34.915Z",
+  "__export_source": "insomnia.desktop.app:v2022.6.0",
+  "resources": [
+    {
+      "_id": "req_3d8a4c0c82c94cde9747431968e90f74",
+      "parentId": "fld_d11f0c82cf4f4c7e946af6ac649b7829",
+      "modified": 1669258001201,
+      "created": 1661713035743,
+      "url": "http://localhost:3000/users/08eba9bd-a1a6-43cd-8752-42935ee27aac",
+      "name": "Atualizar usuario",
+      "description": "",
+      "method": "PATCH",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"age\" : 15\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_1ed7c8d0ada14f0eaeda7f3693d90c18"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1661713035743,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_d11f0c82cf4f4c7e946af6ac649b7829",
+      "parentId": "wrk_6f7fc6f4a269415b8b395cd6aceab7b6",
+      "modified": 1661644934181,
+      "created": 1661644934181,
+      "name": "Users",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1661644934181,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_6f7fc6f4a269415b8b395cd6aceab7b6",
+      "parentId": null,
+      "modified": 1661644925993,
+      "created": 1661644925993,
+      "name": "ENTREGA-API-TYPESCRIPT",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_79889fecb4564635a9f0b7a17560cf94",
+      "parentId": "fld_d11f0c82cf4f4c7e946af6ac649b7829",
+      "modified": 1669257993100,
+      "created": 1661709302611,
+      "url": "http://localhost:3000/users/1fd47a71-a059-420e-92d6-db6de4cb111e",
+      "name": "Deletando usuário",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1661709302611,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_2c1c9c51c9424e69a40f920394b7afd8",
+      "parentId": "fld_d11f0c82cf4f4c7e946af6ac649b7829",
+      "modified": 1661778160753,
+      "created": 1661708258862,
+      "url": "http://localhost:3000/users/f4d6b1d6-704d-4473-91f3-9838215cca18",
+      "name": "Listar um único usuário",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1661708258862,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_1ade6298fa20474cac7f3ca22f7ec037",
+      "parentId": "fld_d11f0c82cf4f4c7e946af6ac649b7829",
+      "modified": 1669257976026,
+      "created": 1661644956405,
+      "url": "http://localhost:3000/users",
+      "name": "Criar usuário",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\" : \"coonie\",\n\t\"email\": \"coonie@kenzie.com\",\n\t\"password\": \"1234\",\n\t\"age\" : 27\n\t\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_fc04b7d656d843c9bbe151a14415371a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1661644956405,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_f7872cc86c734cc781c70fd43a097ca2",
+      "parentId": "fld_d11f0c82cf4f4c7e946af6ac649b7829",
+      "modified": 1661644971342,
+      "created": 1661644938152,
+      "url": "http://localhost:3000/users",
+      "name": "Listar usuários",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1661644938152,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_f07d7d0f95d0f3692f87f1fc68dfe75dcdbfcbcb",
+      "parentId": "wrk_6f7fc6f4a269415b8b395cd6aceab7b6",
+      "modified": 1661644926003,
+      "created": 1661644926003,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1661644926003,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_f07d7d0f95d0f3692f87f1fc68dfe75dcdbfcbcb",
+      "parentId": "wrk_6f7fc6f4a269415b8b395cd6aceab7b6",
+      "modified": 1661644926006,
+      "created": 1661644926006,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_e4c45aa33bea41909946af60cc9f3b6c",
+      "parentId": "wrk_6f7fc6f4a269415b8b395cd6aceab7b6",
+      "modified": 1661644925996,
+      "created": 1661644925996,
+      "fileName": "ENTREGA-API-TYPESCRIPT",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
